@@ -1,8 +1,5 @@
-SINGLELINE COMMENT
 Header Found!
 Header Found!
-SINGLELINE COMMENT
-MULTILINE COMMENT
 Function declaration start: ryad
 Variable initialized: ryad1 is Integer, Value: 0
 Function successfully declared
@@ -15,7 +12,7 @@ Function successfully declared
 Main function found!
 SINGLELINE COMMENT
 MULTILINE COMMENT
-Hello this is my compiler project!
+Hello this is my J programing language!
 Error: Integer declaration without initialization
 Error: Float declaration without initialization
 Error: String declaration without initialization
@@ -26,10 +23,10 @@ Variable "A" already exists.
 Enter Input for integer variable A: 
 Value of A is: 10
 Variable initialized: B is Flaoting Point Number, Value: 1.100000
-Variable initialized: C is String, Value: this isstring
+Variable initialized: C is String, Value: This is string
 Enter Input for float variable B: 
 Enter Input for string variable C: 
-Value of C is: this isstring
+Value of C is: This is string
 SINGLELINE COMMENT
 This is ryad
 Variable initialized: ifa is Integer, Value: 1
@@ -44,6 +41,12 @@ For Loop Iteration: 1
 For Loop Iteration: 2
 For Loop Iteration: 3
 For Loop Iteration: 4
+For Loop Iteration: 5
+For Loop Iteration: 6
+For Loop Iteration: 7
+For Loop Iteration: 8
+For Loop Iteration: 9
+For Loop Iteration: 10
 For Loop Block
 For Loop Iteration: 1
 For Loop Iteration: 2
@@ -100,4 +103,7 @@ Switch statement ended
 Data Types Don't Match.
 Function Not Declared.
 Function Successfully Called.
+SINGLELINE COMMENT
+Variable initialized: ab is Integer, Value: 4
+This is log2(30)
 Compiled Successfully

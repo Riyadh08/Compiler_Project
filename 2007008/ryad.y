@@ -115,11 +115,11 @@
         } else {
              
                 printf("Value of %s is: ", name);
-                if(varptr[index].type == 1) { //1 for integer
+                if(varptr[index].type == 1) {   //1 for integer
                     printf("%d\n", varptr[index].ival[0]);
-                } else if(varptr[index].type == 2) { //2 for float
+                } else if(varptr[index].type == 2) {   //2 for float
                     printf("%lf\n", varptr[index].dval[0]);
-                } else if(varptr[index].type == 3) { //3 for string
+                } else if(varptr[index].type == 3) {   //3 for string
                     printf("%s\n", varptr[index].sval[0]);
                 }
             

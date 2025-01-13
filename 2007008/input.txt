@@ -1,11 +1,6 @@
-/>> single line comment
 add_library ryad.h$
 add_library ryad1.h$
-/>> single line comment
-/* multi
-line
-comment
-*/
+
 int_j dfn ryad(int_j ryad1) {
     $
 }
@@ -23,7 +18,7 @@ int_j [mainj()] {
 line
 comment
 */
-display("Hello this is my compiler project!")$
+display("Hello this is my J programing language!")$
 int_j A$
 float_j A$
 string_j A$
@@ -34,7 +29,7 @@ int_j A = 11$
 jin(A)$
 jout(A)$
 float_j B = 1.1$
-string_j C = "this isstring"$
+string_j C = "This is string"$
 jin(B, C)$
 jout(C)$
 />>jout(B, C)
@@ -99,7 +94,7 @@ jif(ifa != ifb) {
     15
 }
 
-jfor(i in [start: 1, finish: 10, by: 3]) {
+jfor(i in [start: 1, finish: 10, by: 1]) {
     $
 }
 
@@ -154,4 +149,7 @@ switch: {
 }
 calling func(B)$
 calling func(switcha)$
+/>> Performing arithmetic operation
+int_j ab = log2(30)$
+display("This is log2(30)")$
 }
